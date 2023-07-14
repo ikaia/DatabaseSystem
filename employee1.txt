@@ -1,0 +1,29 @@
+DESC employee;
+
+INSERT INTO employee (employeeid, fname, minit, lname, dob, address, sex, buildingid)
+VALUES
+
+
+
+('555555500','John','C','James','1975-06-30','7676 Bloomington, Sacramento, CA','M',111118101);
+INSERT INTO employee VALUES 
+ ('233616650','Franklin','T','Wong','1945-12-08','638 Voss, Houston, TX','M',111118102);
+ INSERT INTO employee VALUES
+ ('083364127' , 'Caroline' , 'E', 'Combs','1988-12-06','984 Locust Ave, Rosemount, MN','F' ,111118103);
+INSERT INTO employee VALUES
+ ('691761554' , 'Trenton' , 'D','Walsh', '1947-07-03','42 Spruce Ave, Latrobe, PA','M' ,111118104);
+ INSERT INTO employee VALUES
+('733336877','Dani','O','Person','1998-07-30','7394 Trenton St, Newton, NJ','F',111118105);
+ INSERT INTO employee VALUES
+('027955413','Joe','E','Delgado','1973-10-23','826 New St, Morgantown, WV','M',111118106);
+INSERT INTO employee VALUES
+('809875977','Daniella' , 'S','Jacobson','2001-01-17','27 Cedarwood Ave, Mahwah, NJ', 'F',111118107);
+INSERT INTO employee VALUES
+('192447846', 'Nola','R','Swanson','1991-12-13','76 Briarwood, Durham, NC','F',111118108);
+ INSERT INTO employee VALUES
+('862706847','Rhett' , 'H' , 'Francis','1958-02-16', '1 North Roosevelt Ave, Soddy Daisy, TN','M', 111118109);
+INSERT INTO employee VALUES
+('192448909','Brooke','A','Schum','1990-08-19', '88 Rockwell Court, Lansing, MI', 'F', 111118100);
+ INSERT INTO employee VALUES
+ ('862706845','Jordan' , 'J' , 'Grahl','1985-10-20', '69 Sussex Lane, Marshalltown, IA','M',111118111);
+

@@ -1,0 +1,28 @@
+DESC employee;
+DESC fundrasier;
+
+INSERT INTO fundrasier (fundrasierid, profit, frdescription, buildingid, state, city, zipcode, address)
+VALUES
+
+
+(1111234,500,'Christmas',111118101,'GA','Atlanta' , 30436, '123 Peachtree');
+ INSERT INTO fundrasier VALUES
+(1111235,1500,'Halloween',111118102,'CA','Duarte' , 91010, '72 Rockland');
+INSERT INTO fundrasier VALUES
+(1111236,100,'Easter',111118103,'MA','Dracut' , 01826, '7363 Essex Ave.');
+INSERT INTO fundrasier VALUES
+(1111237,200,'SummerEvent',111118104,'MD','Frederick' , 21701, '13 East Woods');
+INSERT INTO fundrasier VALUES
+(1111238,900,'WinterEvent',111118105,'FL','Jacksonville' , 32250, '43 Livingston');
+INSERT INTO fundrasier VALUES
+(1111239,300,'FallEvent',111118106,'MD','Gwynn' , 21207, '649 Water Ave.');
+INSERT INTO fundrasier VALUES
+(1111240,2500,'SpringEvent',111118107,'FL','Saint Johns' , 32259, '18 New St.');
+INSERT INTO fundrasier VALUES
+(1111241,4000,'Thanksgivin',111118108,'IN','Fishers' , 46037, '7515 Foster Dr.');
+INSERT INTO fundrasier VALUES
+(1111242,5100,'Valentines',111118109,'NC','Durham' , 27703, '8635 Piper Dr.');
+INSERT INTO fundrasier VALUES
+(1111243,200,'NewYear',111118111,'SC','Inlet' , 29576, '3 Myers Lane');
+
+

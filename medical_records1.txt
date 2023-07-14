@@ -1,0 +1,24 @@
+
+INSERT INTO medical_records (meddescription, dogid, recordid)
+VALUES 
+
+
+  ('Black eye',111111,11);
+  INSERT INTO medical_records VALUES
+ ('Healthy', 111112, 22);
+ INSERT INTO medical_records VALUES
+ ('Malnourished', 111113, 33);
+ INSERT INTO medical_records VALUES
+  ('Healthy', 111114, 44);
+ INSERT INTO medical_records VALUES
+ ('Healthy', 111115, 55);
+INSERT INTO medical_records VALUES
+ ('Broken leg', 111116, 66);
+INSERT INTO medical_records VALUES
+ ('Healthy', 111117, 77);
+INSERT INTO medical_records VALUES
+ ('Healthy', 111118, 88);
+INSERT INTO medical_records VALUES
+ ('Healthy', 111119, 99);
+INSERT INTO medical_records VALUES
+ ('Blind', 111110, 100);

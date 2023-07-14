@@ -1,0 +1,24 @@
+DESC budget;
+
+INSERT INTO budget (budgetyear, annualincome, annualexpense)
+VALUES  (2023, 67980, 2087);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2022, 68766, 2023);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2021, 39894, 3456);
+INSERT INTO budget (budgetyear, annualincome, annualexpense)
+VALUES (2020, 46254 , 5654);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2019, 75051, 1237);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2018, 63775, 4577);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2017, 30777, 6787);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2016, 56606, 2018);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2015, 94747, 201720);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2014, 50624, 19987);
+INSERT INTO budget  (budgetyear, annualincome, annualexpense)
+VALUES (2013, 74447, 40876);

@@ -1,0 +1,159 @@
+
+
+Use dog_rescue;
+DROP TABLE IF EXISTS building;
+CREATE TABLE building (
+  buildingid  integer,
+  state        char(2),
+  city         varchar(15),
+  zipcode     integer,
+  address     varchar(15),
+
+  primary key (buildingid)
+);
+
+Use dog_rescue;
+DROP TABLE IF EXISTS employee;
+CREATE TABLE employee (
+  employeeid char(9),
+  fname    varchar(15) not null,
+  minit    varchar(1),
+  lname    varchar(15) not null,
+  dob      date,
+  address  varchar(50),
+  sex      char(1),
+  buildingid  integer,
+foreign key (buildingid) references building (buildingid),
+ primary key  (employeeid)
+);
+
+-- alter table employee add foreign key (buildingid) references building (buildingid);
+
+
+
+Use dog_rescue;
+DROP TABLE IF EXISTS social_media;
+CREATE TABLE social_media (
+  url         varchar(200),
+  username    varchar(15),
+  buildingid  integer,
+  mediaid     integer,
+ 
+ 
+    foreign key (buildingid) references building (buildingid),
+    primary key (mediaid)
+);
+
+
+
+
+
+Use dog_rescue;
+DROP TABLE IF EXISTS dog;
+CREATE TABLE dog (
+  fname        varchar(15) not null,
+  breed        varchar(30) not null,
+  eyecolor     varchar(25) not null,
+  weight      char(4),
+  height      char(4),
+  sex          char,
+  buildingid  integer,  
+  dogid       varchar(9),
+  mediaid     integer ,
+  adopted     varchar (1),
+  recordid    integer ,
+ 
+ foreign key ( buildingid) references building (buildingid),
+ foreign key (mediaid) references social_media (mediaid),
+  primary key (dogid)
+);
+
+alter table dog add foreign key ( buildingid) references building (buildingid);
+alter table dog add foreign key (mediaid) references social_media (mediaid);
+
+Use dog_rescue;
+DROP TABLE IF EXISTS medical_records;
+CREATE TABLE medical_records (
+  meddescription varchar(25) not null,
+  dogid       varchar(9),
+  recordid    int,
+foreign key (dogid) references dog(dogid),
+    primary key (recordid)
+  );
+-- alter table  medical_records add foreign key (dogid) references dog (dogid);
+
+Use dog_rescue;
+DROP TABLE IF EXISTS transportation;
+CREATE TABLE transportation (
+  transportid  integer,
+  transportcost integer,
+  rescuedate    date,
+  rescueloc     varchar(25) not null,
+ 
+  primary key (transportid)
+);
+
+Use dog_rescue;
+DROP TABLE IF EXISTS customer;
+CREATE TABLE customer (
+  fname    varchar(15) not null,
+  minit    varchar(1),
+  lname    varchar(15) not null,
+  customerid  integer,
+  bdate    date,
+  address  varchar(50),
+  sex      char,
+  email varchar (40),
+ 
+  primary key (customerid)
+);
+
+
+
+Use dog_rescue;
+DROP TABLE IF EXISTS transactions;
+CREATE TABLE transactions (
+  customerid  integer,
+  dogid       varchar(9),
+  transactiondate date,
+  transactionid  integer,
+ 
+ foreign key (customerid) references customer (customerid),
+ foreign key (dogid) references dog (dogid),
+   primary key (transactionid)
+);
+
+-- alter table transactions add foreign key (customerid) references customer (customerid);
+-- alter table transactions add foreign key (dogid) references dog (dogid);
+
+
+
+
+Use dog_rescue;
+DROP TABLE IF EXISTS budget;
+CREATE TABLE budget (
+  budgetyear year,  -- Changed from budgetid to budgetyear to make sense
+  annualincome  integer,
+  annualexpense  int,
+   
+  primary key (budgetyear)
+);
+
+Use dog_rescue;
+DROP TABLE IF EXISTS fundrasier;
+CREATE TABLE fundrasier (
+  fundrasierid  integer ,
+  profit        integer ,
+  frdescription  varchar (11),
+  buildingid  integer,
+  state      char(2),
+  city         varchar(15),
+  zipcode     integer ,
+  address     varchar(15),
+ 
+ 
+foreign key (buildingid) references building (buildingid),
+primary key (fundrasierid)
+);
+
+-- alter table fundrasier add foreign key (buildingid) references building (buildingid);

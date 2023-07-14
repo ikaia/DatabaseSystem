@@ -1,0 +1,26 @@
+DESC transportation;
+
+INSERT INTO transportation  (transportid, transportcost, rescuedate, rescueloc)
+VALUES 
+
+
+
+  (4141,30,'2023-04-01', '423 Melvin Road');
+INSERT INTO transportation  VALUES 
+  (1529,35,'2023-01-21', '717 Littleton Ave');
+INSERT INTO transportation  VALUES 
+  (4763,27,'2023-01-02', '91 North Cross Dr');
+INSERT INTO transportation  VALUES 
+  (4110,41,'2023-03-24', '590 Canterbury St');
+INSERT INTO transportation  VALUES 
+  (8341,43,'2023-03-09', '100 Cherry Hill St');
+INSERT INTO transportation  VALUES 
+  (2208,22,'2023-02-16', '398 Cemetery St');
+INSERT INTO transportation  VALUES 
+  (1977,39,'2023-02-02', '163 Rock Creek Ave');
+INSERT INTO transportation  VALUES 
+  (5642,44,'2022-04-29', '8551 Euclid Rd');
+INSERT INTO transportation  VALUES 
+  (5957,52,'2022-09-21', '774 Princess Ct');
+INSERT INTO transportation  VALUES 
+  (3467,26,'2022-12-28', '50 North Highland St');

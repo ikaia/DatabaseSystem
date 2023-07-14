@@ -1,0 +1,42 @@
+-- JOINING DOG, CUSTOMER AND TRANSCATIONS            table1.primary key =  table2.foregien key | table3.primary key = table1. foreign key 
+SELECT * FROM dog, transactions, customer WHERE transactions.customerid = customer.customerid AND dog.dogid = transactions.dogid; 
+-- Show us all dogs and what customer bought (transactions) them.         
+
+SELECT * FROM transactions;
+-- Show us all the transactions table.
+----------------------------------------------------------------------------------------------------------------------------------------------
+-- JOINING DOG AND MEDICAL_RECORDS             table1.primary key =  table2.foregien key
+SELECT * FROM dog, medical_records WHERE medical_records.recordid = dog.recordid;
+      
+
+SELECT * FROM medical_records;
+-- Show us all the medical_records table.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-- JOINING FUNDRASIER AND BUILDING        table1.primary key =  table2.foregien key
+SELECT * FROM fundrasier, building WHERE building.buildingid = fundrasier.buildingid;
+      
+
+SELECT * FROM fundrasier;
+-- Show us all the fundrasier table.
+---------------------------------------------------------------------------------------------------------------------------------------------
+-- JOINING EMPLOYEE AND BUILDING        table1.primary key =  table2.foregien key
+SELECT * FROM employee, building WHERE building.buildingid = employee.buildingid;
+      
+
+SELECT * FROM employee;
+-- Show us all the employee table.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-- JOINING SOCIAL MEDIA AND BUILDING         table1.primary key =  table2.foregien key
+SELECT * FROM social_media, building WHERE building.buildingid = social_media.buildingid;
+      
+
+SELECT * FROM social_media;
+-- Show us all the social_media table.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+-- JOINING SOCIAL MEDIA AND BUILDING   table1.primary key =  table2.foregien key
+SELECT * FROM social_media, dog WHERE social_media.mediaid = dog.mediaid;
+      
+
+SELECT * FROM dog;
+-- Show us all the social_media table.
+

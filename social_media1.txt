@@ -1,0 +1,25 @@
+DESC social_media;
+
+INSERT INTO social_media (url, username, buildingid, mediaid)
+VALUES 
+
+
+ ('http://hdbyhhu.com','muffins98',111118101,222222);
+ INSERT INTO social_media VALUES
+ ('http://dogtown.com','dogtowndogs',111118102,222223);
+ INSERT INTO social_media VALUES
+ ('http://dauntle.com','dauntless_',111118103,222224);
+ INSERT INTO social_media VALUES
+  ('http://biscuit.com','biscuitsbones',111118104,222225);
+ INSERT INTO social_media VALUES
+   ('http://k9found.com','thek9foundation',111118105,222226);
+ INSERT INTO social_media VALUES
+  ('http://puppyre.com','puppyrescue',111118106,222227);
+ INSERT INTO social_media VALUES
+  ('http://pupsfo.com','pupsforgood', 111118107,222228);
+ INSERT INTO social_media VALUES
+  ('http://second.com','secondchance',111118108,222229);
+ INSERT INTO social_media VALUES
+ ('http://nopawsl.com','nopawsco',111118109,222230);
+ INSERT INTO social_media VALUES
+  ('http://america.comm','americanhounds',111118111,222231);

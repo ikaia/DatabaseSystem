@@ -1,0 +1,47 @@
+DESC dog;
+
+INSERT INTO dog (fname, breed, eyecolor, weight, height, sex, buildingid, dogid, mediaid, adopted, recordid)
+VALUES 
+
+
+('Fluffy','Golden Retriever','Brown','15lb','1''1','F', 000001, '111111',  222222 ,'Y',11);
+INSERT INTO dog VALUES 
+('Frank', 'Pug', 'Grey', '11lb', '2''0', 'M', 000002, '111112', 222223, 'N', 22);
+INSERT INTO dog VALUES 
+('Gibby', 'RottWeiler', 'Black/Brown', '12lb', '1''4', 'M', 000003, '111113', 222224, 'Y', 33);
+INSERT INTO dog VALUES 
+('Willy', 'Dachshund', 'Brown', '08lb', '5', 'M' , 000004, '111114', 222225, 'Y', 44);
+INSERT INTO dog VALUES 
+('Cash', 'Chihuahua', 'Brown', '05lb', '1''0', 'M' , 000005, '111115', 222226, 'Y', 55);
+INSERT INTO dog VALUES 
+('Remington', 'Boykin Spaniel', 'Brown', '30lb', '9''0', 'M' ,000006, '111116', 222227, 'Y', 66);
+INSERT INTO dog VALUES 
+('Spot', 'Dalmatian', 'Black', '88lb', '2''0', 'F', 0000007, '111117', 222228, 'N', 77);
+INSERT INTO dog VALUES 
+('Remi', 'White English Bulldog', 'Green', '90lb', '1''4', 'F', 000008, '111118', 222229, 'Y', 88);
+INSERT INTO dog VALUES 
+('Marley', 'Golden Retriever', 'Brown', '85lb', '1''1', 'M', 000009, '111119', 222230, 'N', 99);
+INSERT INTO dog VALUES 
+('Dotty', 'Dachshund', 'Black', '17lb', '5''0', 'F', '000010', '111120', 222231, 'N', 100);
+
+INSERT INTO dog VALUES
+('Maple','Golden Retriever','Black','13lb','1''1','F', 000011, '111121',  222232 ,'Y',111);
+INSERT INTO dog VALUES 
+('Daniel', 'Pug', 'Grey', '11lb', '2''0', 'M', 000012, '111122', 222233, 'N', 122);
+INSERT INTO dog VALUES 
+('Snuggles', 'RottWeiler', 'Black/Brown', '12lb', '1''4', 'M', 000013, '111133', 222234, 'Y', 133);
+INSERT INTO dog VALUES 
+('Teddy', 'Dachshund', 'Brown', '08lb', '9''0', 'M' , 000014, '111124', 222235, 'Y', 144);
+INSERT INTO dog VALUES 
+('Rufus', 'Chihuahua', 'Brown', '05lb', '1''0', 'M' , 000015, '111125', 222236, 'Y', 155);
+INSERT INTO dog VALUES 
+('Reggie', 'Boykin Spaniel', 'Brown', '10lb', '9''0', 'M' ,000016, '111126', 222237, 'Y', 166);
+INSERT INTO dog VALUES 
+('Doll', 'Dalmatian', 'Black', '88lb', '2''0', 'F', 0000017, '111127', 222238, 'N', 177);
+INSERT INTO dog VALUES 
+('Candy', 'White English Bulldog', 'Green', '20lb', '1''2', 'F', 000018, '111128', 222239, 'Y', 188);
+INSERT INTO dog VALUES 
+('Gabe', 'Golden Retriever', 'Brown', '85lb', '1''1', 'M', 000019, '111129', 222240, 'N', 199);
+INSERT INTO dog VALUES 
+('Princess', 'Dachshund', 'Black', '17lb', '5''0', 'F', '000020', '111130', 222241, 'N', 200);
+

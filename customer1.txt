@@ -1,0 +1,24 @@
+INSERT INTO customer (fname, minit, lname, customerid, bdate, address, sex, email)
+
+
+
+VALUES 
+('John','C','James',693854219, '1980-11-20', '622 feildstone park, GA' , 'M' ,'james@gmail.com'),
+
+('Jane', 'D', 'Doe', 123456789, '1990-12-01' , '442 Circle Lane Farmingdale, NY', 'F' , 'jane.doe@yahoo.com');
+ INSERT INTO customer VALUES
+('John', 'S', 'Smith', 987654321, '2000-03-03', '62 Ridgeview Dr. Anderson, SC', 'M', 'john.smith@gmail.com');
+INSERT INTO customer VALUES
+  ('Alice', 'M', 'Johnson', 456789123 , '1970-04-01' , '7185 N. Edgewood St. Meriden, CT', 'F', 'alice.johnson@gmail.com');
+INSERT INTO customer VALUES
+  ('Bob', 'J', 'Williams', 321654987, '2010-12-01', '74 Rockland Rd. Greensburg, PA', 'M', 'bob.williams@gmail.com');
+INSERT INTO customer VALUES
+  ('Emily', 'R', 'Davis', 654123789 , '1998-05-08', '890 N. Boston Street Newtown, PA' , 'F', 'emily.davis@outlook.com');
+INSERT INTO customer VALUES
+  ('David', 'K', 'Brown', 789456123,  '2001-12-01', '172 South Foxrun Ave. Stamford, CT', 'M','david.brown@gmail.com');
+INSERT INTO customer VALUES
+  ('Sarah', 'L', 'Wilson', 999999999, '1972-09-08', '75 Courtland Rd. Long Beach, NY', 'F', 'swilson@gmail.com');
+INSERT INTO customer VALUES
+  ('Mark', 'P', 'Taylor', 456123789, '1950-10-07', '7465 Tanglewood St. Warminster, PA', 'M', 'markt@gmail.com');
+INSERT INTO customer VALUES
+  ('Karen', 'E', 'Anderson', 321987654, '1964-06-30' ,'77 Cleveland Ave. North Augusta, SC', 'F', 'karen98@yahoo.com');

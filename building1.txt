@@ -1,0 +1,33 @@
+DESC building;
+INSERT INTO building (buildingid, state, city, zipcode, address)
+
+
+VALUES ('111118101','GA', 'Jones' ,'30236','677 Sandy Bri');
+INSERT INTO building
+VALUES 
+('111118102','NC','Durham','27703','722 S. Thomas');
+INSERT INTO building 
+VALUES 
+('111118103','IL','Rolling Meadows','60008','8238 West Lower');
+INSERT INTO building 
+VALUES 
+('111118104','AZ','Tucson','85718','651 EastDrive');
+INSERT INTO building 
+VALUES 
+('111118105','NJ','Monroe Township','08831','995 S.Oak Ave.');
+INSERT INTO building 
+VALUES 
+('111118106','NY','Buffalo','14215','55 Lexington');
+INSERT INTO building 
+VALUES 
+('111118107','IN','La Porte','46350','3 Valley Rd.');
+INSERT INTO building 
+VALUES 
+('111118108','OH','Winchester','43110','57 Foxrun');
+INSERT INTO building 
+VALUES 
+('111118109','FL','Port Richey','34668','491 Green St.');
+INSERT INTO building 
+VALUES 
+('111118111','CT','Stratford','06614','412 S. Mayfair');
+
